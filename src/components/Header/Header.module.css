@@ -1,0 +1,14 @@
+.header {
+    grid-area: header;
+
+    background-color: green;
+}
+
+/* Такая вложенность хорошо работает */
+
+.header img {
+    width: 80px;
+    height: auto;
+    display: block;
+}
+

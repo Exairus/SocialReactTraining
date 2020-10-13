@@ -1,0 +1,17 @@
+.nav {
+    grid-area: nav;
+    margin: 0;
+    list-style: none;
+    padding: 20px;
+  
+    background-color: orange;
+}
+
+.navLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navLink.active {
+    color: gold;
+}
